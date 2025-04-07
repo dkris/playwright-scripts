@@ -37,10 +37,11 @@ npx playwright test --ui
 
 ```
 playwright-scripts/
-├── tests/          # Test files
-├── pages/          # Page object models
-├── fixtures/       # Test fixtures and data
-└── utils/          # Helper utilities
+├── e2e/           # End-to-end test files
+├── tests/         # Test files
+├── pages/         # Page object models
+├── fixtures/      # Test fixtures and data
+└── utils/         # Helper utilities
 ```
 
 ## Committing and Pushing Changes
